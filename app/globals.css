@@ -107,6 +107,9 @@
   .medal_glow {
     filter: drop-shadow(0 10px 20px #fbbe24b9);
   }
+  .h2 {
+    @apply text-5xl md:text-[4.25rem] font-bold;
+  }
 }
 
 .glow {

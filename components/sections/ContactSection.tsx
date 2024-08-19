@@ -50,8 +50,8 @@ const ContactSection = () => {
         className="wrapper  py-32 flex flex-col items-center justify-center gap-10"
       >
         <div className="flex flex-col gap-3 items-center text-center justify-center max-w-md mx-auto">
-          <h2 className={fontWrapper("text-5xl md:text-6xl font-bold")}>
-            Get in touch
+          <h2 className={fontWrapper("h2")}>
+            Get in <span className="text-primary brightness-110">touch</span>
           </h2>
           <p className="opacity-80 text-base md:text-lg">
             Let’s chat, tell me about the project and the required services."

@@ -9,10 +9,8 @@ const Achievements = () => {
         <div className="flex flex-col py-32 gap-4">
           <div className="flex flex-col gap-3 relative mx-auto">
             <Medal className="text-yellow-700 fill-yellow-400 rotate-12 medal_glow w-14 h-14 absolute -top-8 -right-8" />
-            <h2
-              className={fontWrapper("text-5xl md:text-6xl font-bold mx-auto")}
-            >
-              Achievements & Awards
+            <h2 className={fontWrapper("h2 mx-auto")}>
+              Achievements & <span className="text-primary">Awards</span>
             </h2>
             <p className="mx-auto text-base md:text-lg opacity-80 mb-6">
               Recognitions, Awards, and Career Milestones

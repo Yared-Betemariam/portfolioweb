@@ -93,10 +93,10 @@ const AboutMeSection = () => {
       <span className="bg-circle bg-no-repeat -bottom-[10rem] -left-[10rem] opacity-15 -z-10 absolute w-[40rem] h-[40rem] bg-contain bg-center" />
       <section className="wrapper flex flex-col" id="about">
         <div className="flex flex-col py-28 pb-16 items-center justify-center gap-10">
-          <h2 className={fontWrapper("text-5xl md:text-6xl font-bold")}>
-            About Me
+          <h2 className={fontWrapper("h2")}>
+            Who am <span className="text-primary">I?</span>
           </h2>
-          <div className="bg-gray-900/20 h-[1px] max-w-[34rem] w-full" />
+          <div className="bg-gray-900/10 h-[1px] max-w-[30rem] w-full" />
           <div className="flex flex-col indent-8 gap-4 text-base md:text-lg text-center max-w-3xl">
             <p className="">
               This is me,{" "}

@@ -45,10 +45,10 @@ const Services = () => {
     >
       <span className="bg-circle bg-no-repeat -top-[15rem] left-0 opacity-10 -z-10 absolute w-[50rem] h-[50rem] bg-contain bg-center" />
       <div className="flex flex-col py-32 gap-4">
-        <h2 className={fontWrapper("text-5xl md:text-6xl font-bold mx-auto")}>
-          Services
+        <h2 className={fontWrapper("h2 mx-auto")}>
+          What we <span className="text-primary">do?</span>
         </h2>
-        <p className="mx-auto text-base md:text-lg opacity-80 mb-8">
+        <p className="mx-auto text-base md:text-lg text-center max-w-[24rem] opacity-80 mb-8">
           Empowering Businesses with Customized Software Solutions.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2  gap-x-32 gap-y-10 mx-auto">

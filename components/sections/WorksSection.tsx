@@ -9,8 +9,8 @@ const WorksSection = () => {
     <section id="works" className="wrapper relative flex flex-col">
       <span className="bg-circle bg-no-repeat top-[20rem] right-[20rem] opacity-20 absolute w-[40rem] -z-10 h-[40rem] bg-contain bg-center" />
       <div className="flex flex-col py-28 gap-4">
-        <h2 className={fontWrapper("text-5xl md:text-6xl font-bold mx-auto")}>
-          Recent Projects
+        <h2 className={fontWrapper("h2 mx-auto")}>
+          Recent <span className="text-primary">projects</span>
         </h2>
         <p className="mx-auto text-base md:text-lg opacity-80 mb-12">
           Projects that speak for themselves
